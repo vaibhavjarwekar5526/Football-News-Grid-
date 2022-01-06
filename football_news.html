@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football News (Grid)</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            background-color: black;
+        }
+        #main_container{
+            width: 50%;
+            background-color: white;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        #main_container > div{
+            width: 96%;
+            margin: 2%;
+        }
+        .img1{
+            width: 96%;
+            margin: 3% 2%;
+            
+        }
+        .pos1{
+            position: absolute;
+            top: 3%;
+            left: 26.9%;
+            background-color: blue;
+            padding: 3px 7px;
+            color: white;
+            font-size: 13px;
+        }
+        .pos2{
+            position: absolute;
+            top: 3%;
+            left: 51.7%;
+            background-color: yellow;
+            padding: 3px 7px;
+            color: white;
+            font-size: 13px;
+        } 
+        .pos3{
+            position: absolute;
+            top: 18%;
+            left: 27.7%;
+            color: white;
+            font-size: 18px;
+        }
+        .pos4{
+            position: absolute;
+            top: 18%;
+            left: 52.2%;
+            color: white;
+            font-size: 18px;
+        }
+        .pos5{
+            position: absolute;
+            top: 25%;
+            left: 27.7%;
+            color: white;
+            font-size: 18px;
+        }
+        .pos6{
+            position: absolute;
+            top: 25%;
+            left: 52.2%;
+            color: white;
+            font-size: 18px;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 33% 67%;
+            margin: 3% 2%;
+        }
+
+        .box > div > :nth-child(1){
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 2%;
+        }
+        .box > div > :nth-child(2){
+            color: grey;
+            font-size: 16px;
+            margin-top: 0;
+        }
+
+    </style>
+<body>
+    <div id="main_container">
+        <div>
+            <div>
+                <img src="https://via.placeholder.com/350x220" class="img1"/>
+                <p class="pos1">TENIS</p>
+                <p class="pos3">England reach World Cup last 16 with<br/>
+                hard-fought win over Argentina</p>
+                <p class="pos5"><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>There's a great history of the<br/> winner Sandia</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>It'll be a tough game and a<br/> physical game</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>If we don't score we can't get<br/> frustrated</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="https://via.placeholder.com/350x220" class="img1"/>
+                <p class="pos2">FOOTBALL</p>
+                <p class="pos4">We are playing history and Argentina at<br/>
+                the World Cup, says Phil Neville</p>
+                <p class="pos6"><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>Le Havre does have a growing<br/> fan club</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>It will be hard to break them<br/> down</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/100x100"/>
+                <div>
+                    <p>We've never seen them as<br/> organised</p>
+                    <p><img src="https://cdn-icons-png.flaticon.com/512/42/42446.png" width="17px"/> May 19 2019 &nbsp|&nbsp <img src="https://cdn-icons.flaticon.com/png/512/2356/premium/2356780.png?token=exp=1641457231~hmac=e6752ceba2c7c225a46ae431edc3b7b3" width="17px"/>3 Comments</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
